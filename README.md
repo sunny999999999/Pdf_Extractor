@@ -13,23 +13,23 @@ OpenAI / Gemini LLm
 Pandas for Excel output
 
 ## Structure
-
+```
 ASSESSMENT/
 │
-|-app.py                    -Streamlit frontend
-|- Agent.py                  -LLM agent logic and Excel generator
-|- PDF_Reader.py             -Reads PDF text using LlamaIndex
-|- Prompt.py                 -All system messages
-|- Main.py                   
-|- Input_Path.py             -Not used in Streamlit but kept for reference
-|- output.xlsx               -Generated file 
-|- README.md                 -Full project documentation
-|- pyproject.toml            -UV project file (dependencies, metadata)
-|- requirements.txt          -Optional, for Streamlit deployment
-|- .env                      -API keys (ignored in git)
-|- .python-version           -Python version
+├──app.py                    -Streamlit frontend
+├──Agent.py                  -LLM agent logic and Excel generator
+├──PDF_Reader.py             -Reads PDF text using LlamaIndex
+├──Prompt.py                 -All system messages
+├──Main.py                   
+├──Input_Path.py             -Not used in Streamlit but kept for reference
+├──output.xlsx               -Generated file 
+├──README.md                 -Full project documentation
+├──pyproject.toml            -UV project file (dependencies, metadata)
+├──requirements.txt          -Optional, for Streamlit deployment
+├──.env                      -API keys (ignored in git)
+├──.python-version           -Python version
 └── .venv/                    -Virtual environment (ignored in git)
-
+```
 
 ## Overview
 
