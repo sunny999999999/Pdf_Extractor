@@ -1,0 +1,10 @@
+llama-index
+openai
+tiktoken
+autogen-agentchat
+autogen-core
+autogen-ext
+pandas
+dotenv
+streamlit
+openpyxl
