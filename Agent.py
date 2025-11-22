@@ -8,7 +8,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from Prompt import system_message
 import streamlit as st
 
-api_key = st.secrets["GEMINI-API-KEY"]
+api_key = st.secrets["GEMINI_API_KEY"]
 #load env variables - GEMINI_API_KEY
 load_dotenv()
 
@@ -32,5 +32,6 @@ async def Agent_Run(text:str):
     df = pd.DataFrame(data, columns=["Key", "Value", "Comment"]) #create a dataframe with required columns
     df.to_excel("output.xlsx", index=False) #convert it into .xlsx file
     print("Output.xlsx Created Successfully")
+
 
 
